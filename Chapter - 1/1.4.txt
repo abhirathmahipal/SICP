@@ -1,0 +1,2 @@
+A function that takes two number as arguments.
+It adds the absolute value of the second number to the first number.
