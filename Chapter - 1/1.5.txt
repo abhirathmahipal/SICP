@@ -1,0 +1,7 @@
+Referred solution here - http://community.schemewiki.org/?sicp-ex-1.5
+
+Under applicative it never terminates because it keeps expanding to
+itself before it can execute.
+
+Under the normal-order evaluation (fullly expand and then reduce) it terminates
+and gives Ben the expected result.
