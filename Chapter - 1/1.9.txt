@@ -1,0 +1,21 @@
+The first function is recursive in nature.
+
+It needs to keep track of (inc (+ (dec a) b))) that is to be perfomed on an ever increasing number of sub problems.
+
+(+ 4 5)
+(inc (+ 3 5))
+(inc (inc (+ 2 5)))
+(inc (inc (inc (+1 4))))
+
+
+The second is iterative in nature. It kind of resembles a for loop in C. While a != 0 keep reducing it and add 1 to b. The iterpreter does not need to keep track of operations to be performed. It can resume from where it left off.
+
+(+ 4 5)
+(+ 3 6)
+(+ 2 7)
+(+ 1 8)
+(+ 0 9)
+9
+
+
+
